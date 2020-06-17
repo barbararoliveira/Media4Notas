@@ -29,10 +29,10 @@ namespace Media4Notas
 
             media = (n1 + n2 + n3 + n4) / 4;
             
-            if (media >= 5 && media != 6.5)
+            if (media > 5 )
             Console.WriteLine($"Você ficou com média {media}. Resultado: Aprovado.");
 
-            else if (media == 6.5)
+            else if (media >=5 && media <=6)
             Console.WriteLine($"Você ficou com média {media}. Resultado: Recuperação.");
 
             else if (media <= 5)
