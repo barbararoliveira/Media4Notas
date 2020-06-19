@@ -37,7 +37,9 @@ namespace Media4Notas
 
             else if (media <= 5)
             Console.WriteLine($"Você ficou com média {media}. Resultado: Reprovado.");
-
+            
+            Console.WriteLine ("Pressione enter para finalizar.");
+            Console.ReadKey();
         }
     }
 }
